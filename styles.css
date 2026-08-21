@@ -467,10 +467,15 @@ body {
 
 .project-stack {
   display: flex;
+  width: auto;
+  height: auto;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
   gap: 0.5rem;
   margin-top: 1.5rem;
   list-style: none;
+  text-align: left;
 }
 
 .project-stack li {
